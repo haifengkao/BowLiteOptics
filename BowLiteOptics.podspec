@@ -28,15 +28,16 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Hai\ Feng\ Kao/BowLiteOptics.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'BowLiteOptics/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'BowLiteOptics' => ['BowLiteOptics/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'BowLiteCore'
 end

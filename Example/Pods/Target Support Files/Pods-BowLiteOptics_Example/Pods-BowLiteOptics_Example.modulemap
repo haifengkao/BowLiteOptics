@@ -1,0 +1,6 @@
+framework module Pods_BowLiteOptics_Example {
+  umbrella header "Pods-BowLiteOptics_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
