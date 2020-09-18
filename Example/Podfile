@@ -1,0 +1,15 @@
+source 'https://cdn.cocoapods.org/'
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BowLiteOptics_Example' do
+  pod 'BowLiteOptics', :path => '../'
+
+  target 'BowLiteOptics_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 2.0'
+    pod 'Nimble', '~> 8.0'
+  end
+end
