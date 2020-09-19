@@ -1,5 +1,7 @@
 PODS:
-  - BowLiteOptics (0.1.0)
+  - BowLiteCore (0.5.0)
+  - BowLiteOptics (0.2.0):
+    - BowLiteCore (>= 0.5.0)
   - Nimble (8.1.2)
   - Quick (2.2.1)
 
@@ -10,6 +12,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - BowLiteCore
     - Nimble
     - Quick
 
@@ -18,7 +21,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BowLiteOptics: 55573d9da5a8681343c64c0be0b6cda9b18a068e
+  BowLiteCore: 368aa9b108d6661987ed8a79ec7eff916fbbd094
+  BowLiteOptics: 6072cf927f7be8857b29baa6800b2c4bf284acc6
   Nimble: 3864815b4703c7ebffba875973c70e854489fbae
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
