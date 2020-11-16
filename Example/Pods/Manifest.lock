@@ -1,6 +1,6 @@
 PODS:
   - BowLiteCore (0.5.0)
-  - BowLiteOptics (0.2.0):
+  - BowLiteOptics (0.3.0):
     - BowLiteCore (>= 0.5.0)
   - Nimble (8.1.2)
   - Quick (2.2.1)
@@ -22,10 +22,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BowLiteCore: 368aa9b108d6661987ed8a79ec7eff916fbbd094
-  BowLiteOptics: 6072cf927f7be8857b29baa6800b2c4bf284acc6
+  BowLiteOptics: db7f90002dee7876ff177dbfb3eef79b56e9d322
   Nimble: 3864815b4703c7ebffba875973c70e854489fbae
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
 
 PODFILE CHECKSUM: e2a5ed29c63151e9d8b679db3b811cf4a2a24099
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0.rc.1
